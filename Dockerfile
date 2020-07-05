@@ -1,4 +1,4 @@
-from debian:stable-slim
+FROM node:12
 
 RUN npm install -g sonos-web-cli
 RUN sonos-web install
